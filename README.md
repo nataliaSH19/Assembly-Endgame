@@ -16,7 +16,7 @@ Assembly: Endgame is a React-based word guessing game inspired by programming la
 
 Try the game live here: [Assembly: Endgame Demo](https://assembly-endgame-delta.vercel.app/)
 
-![Gameplay Screenshot](assets/screenshot.png)
+![Gameplay Screenshot](/screenshot.png)
 
 ## Technologies Used
 

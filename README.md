@@ -1,12 +1,45 @@
-# React + Vite
+# Assembly: Endgame
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Assembly: Endgame is a React-based word guessing game inspired by programming languages. Guess the hidden word within limited attempts before the programming world succumbs to Assembly!
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Randomly selected programming language word each game.
+- Limited wrong guesses allowed before losing.
+- Visual feedback with colors and emojis.
+- Confetti celebration on win.
+- Dynamic language badges with colors.
+- Keyboard interface with real-time feedback on guesses.
+- Fun farewell messages for incorrect guesses.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React with hooks
+- CSS Flexbox for layout
+- `clsx` for conditional classNames
+- React Confetti for celebrations
+
+## How to Play
+
+1. Click on the letters to guess the hidden word.
+2. You can only make a limited number of wrong guesses.
+3. If you guess all letters correctly, you win and get a confetti celebration!
+4. If you exceed wrong guesses, the game is lost.
+5. Click "New Game" to start over.
+
+## Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/assembly-endgame.git
+   cd assembly-endgame
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+
+```bash
+npm start
+```
